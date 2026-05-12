@@ -1,23 +1,30 @@
 {
-  "name": "discord-protection-dashboard",
+  "name": "advanced-protection-bot",
   "version": "1.0.0",
-  "description": "Complete Discord protection bot with web dashboard",
-  "main": "server.js",
+  "description": "Complete Discord protection bot with advanced security features",
+  "main": "bot.js",
   "scripts": {
-    "start": "node server.js",
-    "bot": "node bot.js",
-    "dev": "nodemon server.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
+  "keywords": [
+    "discord",
+    "bot",
+    "protection",
+    "security",
+    "anti-raid",
+    "anti-spam",
+    "moderation"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
     "discord.js": "^14.14.1",
-    "express-session": "^1.17.3",
-    "passport": "^0.7.0",
-    "passport-discord": "^0.1.4",
-    "sqlite3": "^5.1.6",
     "dotenv": "^16.3.1",
-    "axios": "^1.6.2",
-    "ejs": "^3.1.9"
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   },
   "engines": {
     "node": ">=18.0.0"
